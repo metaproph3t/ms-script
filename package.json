@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "test": "npx tsx main.ts"
+  },
+  "name": "ms-script",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.90.0",
+    "@sqds/multisig": "^1.9.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}
